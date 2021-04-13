@@ -27,21 +27,42 @@
 <article id="content">
 
     <h1 id="Learning_scrolling_js">Learning scrolling js</h1>
+    <h2 id="description_projet">Description du projet</h2>
     <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, fuga ad nam adipisci, voluptates rem tenetur dolore doloribus perferendis quidem sed unde modi impedit deleniti quae, ipsa iure veniam odio?
+        Dans ce projet, j'utilise la position de la partie visible du site et des défférents éléments du site (titres)
+        
+    </p>
+    <h2 id="le_sous_menu">Le sous-menu</h2>
+    <p>
+        Le sous-menu à droite (Aside) est généré automatiquement en javascript en fonction des id des titres h1 et h2 de l'article
+        Il gère la différence entre les titre h1 et h2 (même si avoir 2 h1 est déconseillé...)
+    </p>
+    <h2 id="le_menu_principal">Le menu principal</h2>
+    <p>
+        Le menu principal réagit aussi à la position du scroll. Quand il n'est plus dans le champs visible de l'écran, 
+        sa position se fixe en haut de l'écran et l'image devient plus petite. Comme le menu ne possède pas de hauteur il prend la taille du contenu et
+        dans ce cas, c'est l'image qui donne la taille.
+    </p>
+    <h2 id="ameliorations_possibles">Améliorations possibles</h2>
+    <p>
+        Voici quelque points qui pourraient être ajoutés.
+        <ul>
+            <li>Automatiser la création des id's des titre en générant des slug en fonction des titres avec un systeme de clés 
+                au cas ou il y aurait 2 titre identiques
+            </li>
+            <li>
+                Vérifier si au niveau du référencement et de l'accessibilité, il ne vaudrait pas mieux générer le sous menu coté serveur
+                afin d'avoir un sous menu fonctionnel même sans JS
+            </li>
+            <li>
+                Ajout d'une iconé en bas de l'écran afin de faire remonter l'utilisateur en haut du site
+            </li>
+        </ul>
     </p>
     <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, fuga ad nam adipisci, voluptates rem tenetur dolore doloribus perferendis quidem sed unde modi impedit deleniti quae, ipsa iure veniam odio?
     </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, fuga ad nam adipisci, voluptates rem tenetur dolore doloribus perferendis quidem sed unde modi impedit deleniti quae, ipsa iure veniam odio?
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, fuga ad nam adipisci, voluptates rem tenetur dolore doloribus perferendis quidem sed unde modi impedit deleniti quae, ipsa iure veniam odio?
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, fuga ad nam adipisci, voluptates rem tenetur dolore doloribus perferendis quidem sed unde modi impedit deleniti quae, ipsa iure veniam odio?
-    </p>
+    <h1 id="autre titre h1">Voici un autre titre H1</h1>
     <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, fuga ad nam adipisci, voluptates rem tenetur dolore doloribus perferendis quidem sed unde modi impedit deleniti quae, ipsa iure veniam odio?
     </p>

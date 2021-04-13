@@ -45,7 +45,7 @@ function asideTitleUpdate(subTitles){
 function scrollAsideManager(e){
     e.preventDefault();
     window.scrollTo({
-        top: e.target.scroolTo,
+        top: e.target.scroolTo-50,
         left: 0,
         behavior: 'smooth'
       });
