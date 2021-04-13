@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Trispace:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+body{
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #0B1A26;
+    color:#c9ecec;
+    font-size: 16px;
+    margin:0;
+    padding: 0;
+}
+
+p{
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+    
+}
+article{
+    width: 500px;
+    margin:0 auto;
+    position: relative;
+}
+h1, h2,h3,h4,h5,h6{
+    font-family: 'Trispace', sans-serif;
+    color:#3D9DF2;
+}
+
+article h1{
+    font-size: 2em;
+}
+article h2{
+    margin:64px 0 24px 0;
+}
+
+a{
+    color:#5EF2F2
+}
+aside{
+    position: absolute;
+    right: 100px;
+    bottom:0;
+    transform: translateY(110%);
+    border: 1px solid #5EF2F2;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+#asideElt{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#asideElt a{
+    line-height:24px;
+}
+
+#asideElt a:not(.titleH1){
+    margin-left:16px;
+}
+
+
+.titleH1{
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+header{
+    position: relative;
+    background-color: #113059;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header img{
+    height: 64px;
+    transition: 1s;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.miniMenu{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
+
+}
+
+.miniMenu img{
+    height: 24px;
+    transition: 1s;
+    
+}
